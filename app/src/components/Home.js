@@ -1,15 +1,16 @@
 import {Link, useLocation} from 'react-router-dom'
 
+import '../style/style.css'
+
 const Home = () => {
 
 
     return (
-        <div>
+        <div class='home'>
             <h1>THAT'S BULLISH!</h1>
-            <div class='homebuttons'>
-                <Link to={"/top"}>View Top Stocks</Link>
-                <Link to={"/search"}>Search Stocks by Ticker</Link>
-            </div>
+            <Link class='homebutton' to={"/top"}>View Top Stocks {'>>'}</Link>
+            <Link class='homebutton' to={"/search"}>Search Stocks by Ticker {'>>'}</Link>
+            
             
         </div>
     )

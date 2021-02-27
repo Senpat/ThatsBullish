@@ -1,10 +1,12 @@
 
 
+import '../style/style.css'
+
 const Top = () => {
 
 
     return (
-        <div>
+        <div class='top'>
             <p>Top Mentioned Stocks:</p>
         </div>
     )
