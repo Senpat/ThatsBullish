@@ -15,5 +15,5 @@ for(let k = 0; k < tickerssorted.length; k++){
 }
 
 
-//console.log(rankings)
+console.log(rankings)
 export {alltickers,tickerssorted,rankings}
