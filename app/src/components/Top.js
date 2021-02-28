@@ -22,7 +22,7 @@ const Top = () => {
         rankings[tickerssorted[k]] = k+1
     }
 
-    const common = new Set(["DD","RH","CEO","UK","FOR","IMO","LMAO","AI","IT","ALL","ON","ARE","DO","HUGE","LIFE","TIL","RUN","TV"])
+    const common = new Set(["PE","EV","DD","RH","CEO","UK","FOR","IMO","LMAO","AI","IT","ALL","ON","ARE","DO","HUGE","LIFE","TIL","RUN","TV"])
 
     const showtickers = []
     let i = 0
@@ -32,8 +32,8 @@ const Top = () => {
         }
         i++
     }
-    console.log(alltickers)
-    //console.log(showtickers)
+    //console.log(alltickers)
+    console.log(showtickers)
 
     return (
         <div class='top'>
