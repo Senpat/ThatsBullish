@@ -18,10 +18,8 @@ const Search = () => {
     return (
         <div class='search'>
             <p>Search any stock by ticker</p>
-            <form>
-                <input type='text' placeholder='CCIV' value={textbox} onChange={(e) => setTextbox(e.target.value)} />
-                <button onClick={submit}>Go</button>
-            </form>
+            <input type='text' placeholder='CCIV' value={textbox} onChange={(e) => setTextbox(e.target.value)} />
+            <button onClick={submit}>Go</button>
             <SearchResult ticker={ticker} />
         </div>
     )
