@@ -14,6 +14,6 @@ for(let k = 0; k < tickerssorted.length; k++){
     rankings[tickerssorted[k]] = k+1
 }
 
-
-console.log(rankings)
+console.log(alltickers)
+//console.log(rankings)
 export {alltickers,tickerssorted,rankings}
